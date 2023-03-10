@@ -1,0 +1,19 @@
+/* BASIC STYLES HERE */
+.fruit-bg {
+  background-image: url('https://img.freepik.com/free-vector/creative-colorful-fruity-pattern-background_52683-42250.jpg?w=996&t=st=1678400435~exp=1678401035~hmac=654492f3f49e2e1a13f9393934b2cb7354cd08e98f3b30febe579a977f21c523');
+  background-size: cover;
+}
+
+.card {
+  min-height: 40vh;
+  background-color: rgba(250, 178, 116, 0.953);
+}
+
+.bg-peach {
+  background-color: rgba(250, 178, 116, 0.953);
+}
+
+body {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
