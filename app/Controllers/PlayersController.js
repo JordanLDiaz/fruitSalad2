@@ -34,7 +34,7 @@ export class PlayersController {
     let form = window.event.target
     // console.log(form)
     let formData = getFormData(form)
-    console.log(formData)
+    // console.log(formData)
     playersService.createPlayer(formData)
     // @ts-ignore
     form.reset()
@@ -42,7 +42,7 @@ export class PlayersController {
 
   setActivePlayer(playerId) {
     playersService.setActivePlayer(playerId)
-    console.log(playerId)
+    // console.log(playerId)
   }
 
   startGame() {
@@ -74,7 +74,7 @@ export class PlayersController {
     }
     appState.activePlayer.score = 0
     let index = appState.players.findIndex(p => p.id == appState.activePlayer.id)
-    console.log("finding index", index)
+    // console.log("finding index", index)
     appState.players.splice(index, 1, appState.activePlayer)
     saveState('players', appState.players)
     _drawPlayers()
@@ -84,7 +84,7 @@ export class PlayersController {
     window.event.preventDefault()
     const form = window.event.target
     const formValue = getFormData(form)
-    console.log(formValue)
+    // console.log(formValue)
     if (formValue.fruit == appState.activeFruit) {
       console.log('you good at spelling')
       document.getElementById('game-box').innerHTML = Player.GetWord()

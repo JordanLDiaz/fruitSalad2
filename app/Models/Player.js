@@ -30,7 +30,7 @@ export class Player {
   static GetFruitForm() {
     return `
     <form onsubmit="app.playersController.spellFruit()" class="mt-3">
-    <input type="text" name="fruit" id="fruit" placeholder="Type your guess here..." required>
+    <input type="text" name="fruit" id="fruit" placeholder="Spell the word here..." required>
   </form>
     `
   }

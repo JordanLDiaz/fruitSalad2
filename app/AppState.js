@@ -17,6 +17,8 @@ class AppState extends EventEmitter {
   fruits = ['banana', 'apple', 'kiwi', 'orange', 'pineapple', 'grape', 'mango', 'nectarine', 'pomegranite', 'plum', 'guava', 'coconut', 'mandarin', 'satsuma', 'lemon', 'lime', 'rambutan', 'dragon fruit', 'papaya', 'plantain', 'persimmon', 'star fruit', 'duran', 'canteloupe', 'grapefruit', 'honeydew', 'watermelon', 'cherry', 'raspberry', 'blackberry', 'blueberry', 'huckleberry', 'boysenberry', 'peach', 'strawberry', 'fig']
 
   activeFruit = null
+
+  gameSeconds = 30
 }
 
 export const appState = new Proxy(new AppState(), {
