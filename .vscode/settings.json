@@ -11,7 +11,12 @@
     "titleBar.activeBackground": "#1c8391",
     "titleBar.activeForeground": "#e7e7e7",
     "titleBar.inactiveBackground": "#1c839199",
-    "titleBar.inactiveForeground": "#e7e7e799"
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#1c8391",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#24aabc",
+    "statusBarItem.remoteBackground": "#1c8391",
+    "statusBarItem.remoteForeground": "#e7e7e7"
   },
   "peacock.color": "#1c8391"
 }
